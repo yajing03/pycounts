@@ -4,8 +4,11 @@ Calculate word counts in a text file!
 
 ## Installation
 
+The package is only pushed to testpypl, install using command
 ```bash
-pip install pycounts_lyj
+pip install --index-url https://test.pypi.org/simple/ \
+  --extra-index-url https://pypi.org/simple \
+  pycounts_lyj
 ```
 
 ## Usage
@@ -23,6 +26,9 @@ counts = count_words(file_path)
 fig = plot_words(counts, n=10)
 plt.show()
 ```
+## Documents:
+
+Doc is live in ReadTheDocs page. [link](https://pycounts-lyj.readthedocs.io/en/stable/).
 
 ## Contributing
 

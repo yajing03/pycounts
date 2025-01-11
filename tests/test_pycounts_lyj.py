@@ -1,1 +1,1 @@
-from pycounts_lyj import pycounts_lyj
+from pycounts import pycounts
